@@ -39,4 +39,5 @@ print(username.isalpha())
 word = "Innovempia" 
 print(len(word))  
 input(10)
+type(3.14)
 
