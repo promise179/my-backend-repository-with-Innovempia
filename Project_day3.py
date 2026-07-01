@@ -1,0 +1,15 @@
+hero = input("Enter the hero's name:samuel ").strip().title()
+city = input("Enter the city: canada ").strip().capitalize()
+age = int(input("Enter the hero's age: "))
+future_age = age + 100
+weapon = input("Enter the weapon: sword ").strip().upper()
+code = input("Enter the 4-digit secret code: 2004 ").strip()
+is_valid = code.isdigit()
+
+print("=== YEAR 3000 SCI-FI STORY ===")
+print("In the bustling metropolis of " + city + ", a legend was born.")
+print("His name was " + hero + ", and he carried the mighty " + weapon + ".")
+print("At the young age of " + str(age) + ", he discovered a secret code: " + code + ".")
+print("Was it a real numeric code? " + str(is_valid) + ".")
+print("Exactly 100 years later, at age " + str(future_age) + ", " + hero + " saved the universe.")
+print("The name " + hero + " appears 2 times in this tale!")
